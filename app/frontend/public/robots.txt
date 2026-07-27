@@ -1,0 +1,13 @@
+# Professional SEO & Privacy Configuration
+User-agent: *
+Allow: /
+
+# Prevent index of private build artifacts (if any made it past build)
+Disallow: /build/
+Disallow: /static/js/*.js.map
+
+# Standard Crawl Delay for better performance
+Crawl-delay: 10
+
+# Sitemap (Update this after you have a real domain)
+# Sitemap: https://your-portfolio.vercel.app/sitemap.xml
